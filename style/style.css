@@ -12,6 +12,7 @@ body {
 a {
   color: white;
   text-decoration: none;
+  transition: all 1s ease-in-out;
 }
 
 #nav {
@@ -23,6 +24,10 @@ a {
 
 #nav img {
   height: 1.75rem;
+}
+
+#nav a:hover {
+  font-size: 2rem;
 }
 
 #nav ul {
@@ -68,4 +73,43 @@ a {
 #section-text p {
   margin-top: 2rem;
   line-height: 1.6rem;
+}
+
+#section-two-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 0 4rem;
+}
+
+#section-two-text h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+#section-two-text button {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#image-list-container {
+  margin-top: 4rem;
+}
+
+.image-list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.image-list img {
+  width: 100%;
 }
